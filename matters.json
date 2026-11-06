@@ -1,0 +1,18 @@
+{
+  "updated": "2026-11-06",
+  "说明": "事项映射配置：数据库项目+内容前缀 → 产品组周报事项名称/版本。新事项出现时先加映射并标'待确认'，组长确认名称归属后改'confirmed'。登记工时时内容前缀必须与 content_prefix 一致（跨周一致）。",
+  "matters": [
+    {"name": "文鳐大模型发布会演示", "version": "不分期", "match": {"project": "产品工作", "content_prefix": ["文鳐"]}, "status": "confirmed"},
+    {"name": "AI智能机舱", "version": "V1.1", "match": {"project": "产品工作", "content_prefix": ["AI智能机舱"]}, "status": "confirmed"},
+    {"name": "无人值守开发平台", "version": "—", "match": {"project": "产品工作", "content_prefix": ["无人值守开发平台"]}, "status": "待确认"},
+    {"name": "四联热力站维保", "version": "—", "match": {"project": "京能集团热力集团", "content_prefix": ["四联热力站维保"]}, "status": "待确认"},
+    {"name": "中远绿色智能", "version": "—", "match": {"project": "中远绿色智能"}, "status": "待确认"},
+    {"name": "token平台", "version": "—", "match": {"project": "token平台"}, "status": "待确认"}
+  ],
+  "other_matters": [
+    {"name": "产品组绩效考评", "content_keywords": ["绩效", "考评"]}
+  ],
+  "excluded": [
+    {"name": "船舶与海洋产品周会", "content_keywords": ["产品周会", "组会"], "reason": "内部例行例会，不入周报（用户2026-09-06明确）"}
+  ]
+}
